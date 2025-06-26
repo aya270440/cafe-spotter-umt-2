@@ -1,12 +1,12 @@
 const CACHE_NAME = 'cafe-spotter-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/cafes.json',
-  '/icon-192.png',
-  '/icon-512.png',
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './cafes.json',
+  './icon-192.png',
+  './icon-512.png',
   'https://unpkg.com/leaflet/dist/leaflet.css',
   'https://unpkg.com/leaflet/dist/leaflet.js'
 ];
