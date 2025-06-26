@@ -10,7 +10,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Load café data and add markers with popup + Save button
-fetch('cafes.json')
+fetch('./cafes.json')
   .then(response => response.json())
   .then(cafes => {
     cafes.forEach(cafe => {
